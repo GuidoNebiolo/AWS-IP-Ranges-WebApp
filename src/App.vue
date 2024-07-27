@@ -1,5 +1,5 @@
 <script async setup>
-import { onMounted, ref } from "vue";
+import { onMounted } from "vue";
 
 import { useIpsStore } from "./stores/ips";
 const store = useIpsStore()
@@ -19,6 +19,6 @@ onMounted(async () => {
 
 <template>
   <div>
-    <IPTable :tableData="store.getIPv4s?.map(i => [i['service'], i['region'], i['ip_prefix']])" />
+    <IPTable title="IPv4" :tableData="store.getIPv4s?.map(i => [i['service'], i['region'], i['ip_prefix']])" />
   </div>
 </template>
