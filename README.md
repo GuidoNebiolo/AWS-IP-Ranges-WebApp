@@ -13,7 +13,7 @@ A web application built with Vue.js 3 and Vite that displays the IP address rang
 
 1. Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
 2. Clone this repository to your local machine.
-3. Navigate to the project directory: `cd AWSIpRanges-WebApp`
+3. Navigate to the project directory: `cd AWSIPRanges-WebApp`
 4. Install the project dependencies: `npm install`
 
 ## Usage
